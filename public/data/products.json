@@ -1,0 +1,39 @@
+[
+  {
+    "id": "1",
+    "name": "Cartera Vintage",
+    "price": 4500,
+    "category": "Cartera",
+    "description": "Cartera de cuero estilo vintage, perfecta para cualquier ocasión.",
+    "imageUrl": "/images/cartera-vintage.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Cartera Urbana",
+    "price": 3200,
+    "category": "Cartera",
+    "description": "Cartera resistente y espaciosa, ideal para el día a día en la ciudad.",
+    "imageUrl": "/images/cartera-urbana.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Bolso de Mano Elegante",
+    "price": 2800,
+    "category": "Cartera",
+    "description": "Bolso de mano con diseño elegante, perfecto para eventos formales.",
+    "imageUrl": "/images/bolso-mano-elegante.jpg"
+  },
+  {    "id": "3",
+    "name": "Billetera con tachas",
+    "price": 2800,
+    "category": "Billeteras",
+    "description": "Billeteras con diseño a tachas, ideal para eventos informales.",
+    "imageUrl": "/images/billetera-tachas.jpg"},
+    {
+    "id": "4",
+    "name": "Billetera clásica de cuero",
+    "price": 3200,
+    "category": "Billeteras",
+    "description": "Billetera de cuero genuino con diseño clásico y compartimentos amplios para tarjetas y billetes.",
+    "imageUrl": "/images/billetera-cuero.jpg"
+    }]

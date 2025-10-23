@@ -1,9 +1,9 @@
 import './App.css';
 import { BrowserRouter, Routes } from 'react-router-dom';
-import { Nav } from './components/nav/nav';
-import { ItemListContainer } from './components/itemlistcontainer/itemlistcontainer.jsx';
-import { ItemDetailContainer } from './components/itemdetailcontainer/itemdetailcontainer.jsx';
-import { CartProvider } from './context/CardContext/CartProvider.jsx';
+import { Nav } from './components/Nav/Nav.jsx';
+import { ItemListContainer } from './components/Itemlistcontainer/Itemlistcontainer.jsx';
+import { ItemDetailContainer } from './components/Itemdetailcontainer/Itemdetailcontainer.jsx';
+import { CartProvider } from './context/CartContext/CartProvider.jsx';
 
 function App() {
   return (

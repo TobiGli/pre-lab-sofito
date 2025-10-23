@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom"
-import { useCartContext } from "../../context/CardContext/CartContext.jsx"
+import { useCartContext } from "../../context/CartContext/useCartContext.js"
 import "./Nav.css"
 
-export const nav = () => {
+export const Nav = () => {
     const { getTotalItems } = useCartContext();
 
     
@@ -23,4 +23,6 @@ export const nav = () => {
                     {getTotalItems() > 0 && <span>{getTotalItems()}</span>}
                 </li>
             </ul>
-        </nav>)}
+        </nav>)};
+
+        export default Nav;

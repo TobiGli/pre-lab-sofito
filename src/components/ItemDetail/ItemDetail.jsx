@@ -1,4 +1,4 @@
-import { Item } from "../item/item.jsx";
+import { Item } from "../Item/Item.jsx";
 import { useCartContext } from "../../context/CartContext/useCartContext.js"
 
 export const ItemDetail = ({ detail }) => {

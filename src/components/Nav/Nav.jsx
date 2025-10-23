@@ -7,19 +7,19 @@ export const Nav = () => {
 
     
     return (
-        <nav>
-            <ul>
+        <nav className="navstyle">
+            <ul className="nav-list">
                 <li>
-                    <Link to={"/"}>Home</Link>
+                    <Link className="nav-button" to={"/"}>Home</Link>
                 </li>
                 <li>
-                    <Link to={"/category/carteras"}>Carteras</Link>
+                    <Link className="nav-button" to={"/category/carteras"}>Carteras</Link>
                 </li>
                 <li>
-                    <Link to={"/category/billeteras"}>Billeteras</Link>
+                    <Link className="nav-button" to={"/category/billeteras"}>Billeteras</Link>
                 </li>
                 <li>
-                    <Link>Carrito</Link>
+                    <Link className="nav-button">Carrito</Link>
                     {getTotalItems() > 0 && <span>{getTotalItems()}</span>}
                 </li>
             </ul>

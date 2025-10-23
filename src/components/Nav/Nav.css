@@ -1,0 +1,29 @@
+.nav-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  list-style-type: none;
+  padding: 1rem 0;
+  border-bottom: 1px solid #e7e7e7
+}
+
+.nav-list{
+  text-decoration: none;
+  color: black;
+  padding: 8px 16px;
+}
+
+.nav-button {
+display: inline-block;
+  padding: 10px 20px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: #333;
+  background-color: #DCDCDC;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}

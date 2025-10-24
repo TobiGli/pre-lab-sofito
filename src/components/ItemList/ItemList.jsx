@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { Item } from "../Item/Item.jsx";
-import "./itemlist.css";
+import "./ItemList.css";
 
 export const ItemList = ({list}) => {
     return (<>
